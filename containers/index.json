@@ -1,32 +1,38 @@
 {
-	"pathwayTitle": "Kubernetes Workshop Guatemala",
-	"title": "Kubernetes Workshop Guatemala",
+	"pathwayTitle": "Kubernetes Workshop",
+	"title": "Kubernetes Workshop",
 	"description": "Este workshop mostrará como funconan los componentes basicos de kubernetes",
 	"environment": {
-    "uilayout": "editor-terminal"
+		"uilayout": "editor-terminal"
 	},
 	"time": "30-45 minutos",
-  "backend": {
+	"backend": {
 		"port": 30000,
 		"dockerimage": "minikube-running"
 	},
 	"details": {
-		"steps": [{
-			"title": "Paso 1 - Familiarizarce con el comando kubectl",
-			"text": "step1.md"
-		}, {
-			"title": "Crear nuestro primer POD",
-			"text": "step2.md"
-		}, {
-			"title": "Exponer nuestro POD al mundo",
-			"text": "step3.md"
-		}, {
-			"title": "Haciendo nuestro POD 'custom'",
-			"text": "step4.md"
-		}, {
-			"title": "Deployando una aplicación",
-			"text": "step5.md"
-		}],
+		"steps": [
+			{
+				"title": "Paso 1 - Familiarizarce con el comando kubectl",
+				"text": "step1.md"
+			},
+			{
+				"title": "Crear nuestro primer POD",
+				"text": "step2.md"
+			},
+			{
+				"title": "Exponer nuestro POD al mundo",
+				"text": "step3.md"
+			},
+			{
+				"title": "Haciendo nuestro POD 'custom'",
+				"text": "step4.md"
+			},
+			{
+				"title": "Deployando una aplicación",
+				"text": "step5.md"
+			}
+		],
 		"intro": {
 			"courseData": "env-init.sh",
 			"text": "intro.md"
@@ -36,13 +42,34 @@
 		},
 		"assets": {
 			"host01": [
-				{"file": "configmap/configmap.yaml", "target": "~/kubernetes-guatemala/configmap/"},
-				{"file": "configmap/pod.yaml", "target": "~/kubernetes-guatemala/configmap/"},
-				{"file": "pods/pod.yaml", "target": "~/kubernetes-guatemala/pod/"},
-				{"file": "pods/service.yaml", "target": "~/kubernetes-guatemala/pod/"},
-				{"file": "wordpress/wordpress.yaml", "target": "~/kubernetes-guatemala/wordpress/"},
-				{"file": "wordpress/mysql.yaml", "target": "~/kubernetes-guatemala/wordpress/"},
-				{"file": "wordpress/credentials.yaml", "target": "~/kubernetes-guatemala/wordpress/"}
+				{
+					"file": "configmap/configmap.yaml",
+					"target": "~/kubernetes-guatemala/configmap/"
+				},
+				{
+					"file": "configmap/pod.yaml",
+					"target": "~/kubernetes-guatemala/configmap/"
+				},
+				{
+					"file": "pods/pod.yaml",
+					"target": "~/kubernetes-guatemala/pod/"
+				},
+				{
+					"file": "pods/service.yaml",
+					"target": "~/kubernetes-guatemala/pod/"
+				},
+				{
+					"file": "wordpress/wordpress.yaml",
+					"target": "~/kubernetes-guatemala/wordpress/"
+				},
+				{
+					"file": "wordpress/mysql.yaml",
+					"target": "~/kubernetes-guatemala/wordpress/"
+				},
+				{
+					"file": "wordpress/credentials.yaml",
+					"target": "~/kubernetes-guatemala/wordpress/"
+				}
 			]
 		}
 	}
