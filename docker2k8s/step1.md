@@ -8,6 +8,8 @@ Esta proyecto consiste en 2 aplicaciones un API server y un FrontEnd
 
 Esta aplicación esta construida con NodeJS, Express y MongoDB
 
+[comment]: # !TODO añadir diagrama de aplicacón
+
 
 ## FrontEnd
 
