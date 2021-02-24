@@ -1,0 +1,20 @@
+{
+  "title": "docker",
+  "description": "docker",
+  "courses": [
+    {
+      "pathway_id": "adawolfs",
+      "title": "Docker 2 K8S: Aplicación",
+      "id": "application",
+      "course_id": "application",
+      "description": "Aplicación frontend y backend"
+    },
+    {
+      "pathway_id": "adawolfs",
+      "title": "Kubernetes Workshop",
+      "id": "containers",
+      "course_id": "containers",
+      "description": "Este workshop mostrará como funconan los componentes basicos de kubernetes"
+    }
+  ]
+}
