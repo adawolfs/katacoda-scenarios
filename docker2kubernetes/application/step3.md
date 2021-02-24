@@ -10,7 +10,7 @@ Instalar Angular CLI
 
 Instalar Dependencias
 
-`npm install`
+`npm install`{{execute}}
 
 Iniciar Frontend
 

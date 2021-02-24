@@ -1,0 +1,12 @@
+{
+  "title": "Docker 2 Kubernetes",
+  "description": "Este es un workshop creado por la comundiad de Kubernetes Guatemala para toda la comunidad hispana",
+  "icon": "fa-kuberentes",
+  "courses": [
+    {
+      "course_id": "application",
+      "title": "Aplicación",
+      "description": "Aplicación web front end y backend"
+    }
+  ]
+}
