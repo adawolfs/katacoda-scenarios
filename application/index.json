@@ -1,0 +1,32 @@
+{
+  "title": "Docker 2 K8S: Aplicación",
+  "description": "Aplicación frontend y backend",
+  "details": {
+    "steps": [
+      {
+        "title": "Fase 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Fase 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
