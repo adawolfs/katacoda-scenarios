@@ -1,0 +1,20 @@
+{
+  "title": "Migrate your App to Docker and Kubernetes",
+  "description": " Migrate an old fashion deployed application into containerized i",
+  "courses": [
+    {
+      "pathway_id": "adawolfs",
+      "title": "Docker 2 K8S",
+      "id": "application",
+      "course_id": "application",
+      "description": "Como convertir tus aplicaciones a Docker y Utilizarlas en k8s"
+    },
+    {
+      "pathway_id": "adawolfs",
+      "title": "Kubernetes Workshop",
+      "id": "containers",
+      "course_id": "containers",
+      "description": "Este workshop mostrará como funconan los componentes basicos de kubernetes"
+    }
+  ]
+}
