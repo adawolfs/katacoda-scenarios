@@ -1,6 +1,6 @@
 {
-	"pathwayTitle": "Kubernetes Workshop",
-	"title": "Kubernetes Workshop",
+	"pathwayTitle": "Centos 8",
+	"title": "Centos 8",
 	"description": "Este workshop mostrará como funconan los componentes basicos de kubernetes",
 	"environment": {
 		"uilayout": "editor-terminal"
@@ -8,7 +8,7 @@
 	"time": "30-45 minutos",
 	"backend": {
 		"port": 30000,
-		"dockerimage": "minikube-running"
+		"dockerimage": "centos:8"
 	},
 	"details": {
 		"steps": [
