@@ -1,14 +1,13 @@
 {
-	"pathwayTitle": "Centos 8",
-	"title": "Centos 8",
+	"pathwayTitle": "Centos 7",
+	"title": "Centos 7",
 	"description": "Este workshop mostrará como funconan los componentes basicos de kubernetes",
 	"environment": {
 		"uilayout": "editor-terminal"
 	},
 	"time": "30-45 minutos",
 	"backend": {
-		"port": 30000,
-		"dockerimage": "centos:8"
+		"imageid": "centos:7"
 	},
 	"details": {
 		"steps": [
